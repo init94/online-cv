@@ -137,7 +137,6 @@ experiences:
               - Implementation of automated test specification.
 
             Tools used: Jira, Git, Gitlab, Robot Framework, DOORS
-
 projects:
     title: Projects
     intro: >
@@ -161,11 +160,6 @@ publications:
       - title: ISTQB Certified Tester Foundation Level
         authors: SSTQB
         conference: 2018
-
-      - title: Advanced C Programming Course
-        authors: Jason Fedin, Udemy
-        conference: 2021
-
 skills:
     title: Skills &amp; Proficiency
 
