@@ -1,0 +1,19 @@
+{% assign others = site.data.data.sidebar.others %}
+{% if others %}
+<div class="other-container container-block">
+
+  <h2 class="container-block-title">
+    {{ others.title }}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for entry in others.info %}
+    <li>
+      {{ entry.item }}
+      <span class="lang-desc">({{ entry.property }})</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}
